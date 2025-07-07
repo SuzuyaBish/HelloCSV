@@ -18,7 +18,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex max-h-[800px] w-full bg-white p-8 pb-20 text-black">
+    <div className="flex max-h-[800px] w-full p-8 pb-20">
       <Importer
         maxFileSizeInBytes={10 * 1024 * 1024} // 10MB
         sheets={[

@@ -42,7 +42,7 @@ export default forwardRef<HTMLDivElement, Props>(function Root(
     >
       <div
         ref={ref}
-        className={`min-h-0 w-full overflow-auto bg-white ${withFullHeight ? 'h-full' : ''}`}
+        className={`min-h-0 w-full overflow-auto ${withFullHeight ? 'h-full' : ''}`}
       >
         {children}
       </div>
