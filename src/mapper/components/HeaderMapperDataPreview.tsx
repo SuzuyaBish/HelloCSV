@@ -15,7 +15,7 @@ export default function HeaderMapperDataPreview({
 
   return (
     csvHeader && (
-      <div className="m-4 rounded-sm border border-gray-300 bg-white px-4 sm:px-6 lg:px-8">
+      <div className="m-4 rounded-sm border border-gray-300 bg-background px-4 sm:px-6 lg:px-8">
         <div className="mt-6 flow-root">
           <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div className="inline-block min-w-full py-2 align-middle">

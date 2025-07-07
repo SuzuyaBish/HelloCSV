@@ -54,7 +54,7 @@ export default function TryItYourself({ code }: { code: string }) {
         <div id="importer-container" className="hidden">
           <div
             id="importer"
-            className="rounded-lg border border-gray-200 bg-white px-2 py-6 sm:px-8"
+            className="rounded-lg border border-gray-200 bg-background px-2 py-6 sm:px-8"
           ></div>
         </div>
       </div>

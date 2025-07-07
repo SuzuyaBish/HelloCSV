@@ -18,7 +18,7 @@ const buttonStyles = cva(
     variants: {
       active: {
         true: '',
-        false: 'bg-white hover:bg-gray-50',
+        false: 'bg-background hover:bg-gray-50',
       },
       variant: {
         default: '',

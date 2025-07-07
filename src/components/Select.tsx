@@ -1,14 +1,14 @@
 import {
-  Combobox,
-  ComboboxButton,
-  ComboboxOption,
-  ComboboxOptions,
-  ComboboxInput,
+    Combobox,
+    ComboboxButton,
+    ComboboxOption,
+    ComboboxOptions,
+    ComboboxInput,
 } from '@headlessui/react';
 import {
-  ChevronUpDownIcon,
-  XMarkIcon,
-  CheckIcon,
+    ChevronUpDownIcon,
+    XMarkIcon,
+    CheckIcon,
 } from '@heroicons/react/20/solid';
 import { useTranslations } from '../i18';
 import { useState } from 'preact/hooks';
@@ -132,7 +132,7 @@ export default function Select<T>({
           aria-label={props['aria-label'] ?? placeholder}
         >
           <ComboboxInput
-            className={`${classes} focus:outline-hello-csv-primary block w-full cursor-pointer truncate rounded-md bg-white py-1.5 focus:cursor-text ${clearButtonDisplayed ? 'pr-12' : 'pr-2'} pl-3 text-left text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 sm:text-sm`}
+            className={`${classes} focus:outline-hello-csv-primary block w-full cursor-pointer truncate rounded-md bg-background py-1.5 focus:cursor-text ${clearButtonDisplayed ? 'pr-12' : 'pr-2'} pl-3 text-left text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 sm:text-sm`}
             displayValue={getDisplayValue}
             onChange={(event) =>
               searchable && setQuery((event.target as HTMLInputElement).value)
@@ -169,7 +169,7 @@ export default function Select<T>({
         <ComboboxOptions
           anchor="bottom"
           transition
-          className="absolute z-99 mt-1 max-h-60 w-[var(--input-width)] overflow-auto rounded-md bg-white py-1 text-base ring-1 shadow-lg ring-black/5 focus:outline-hidden data-leave:transition data-leave:duration-100 data-leave:ease-in data-closed:data-leave:opacity-0 sm:text-sm"
+          className="absolute z-99 mt-1 max-h-60 w-[var(--input-width)] overflow-auto rounded-md bg-background py-1 text-base ring-1 shadow-lg ring-black/5 focus:outline-hidden data-leave:transition data-leave:duration-100 data-leave:ease-in data-closed:data-leave:opacity-0 sm:text-sm"
         >
           {hasNoOptions && (
             <ComboboxOption

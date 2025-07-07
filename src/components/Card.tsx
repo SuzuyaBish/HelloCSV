@@ -11,7 +11,7 @@ interface Props {
 const baseClasses = cva('overflow-hidden rounded-md border border-gray-200', {
   variants: {
     variant: {
-      default: 'bg-white',
+      default: 'bg-background',
       muted: 'bg-hello-csv-muted',
     },
     withPadding: {

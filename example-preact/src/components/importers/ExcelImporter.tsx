@@ -66,7 +66,7 @@ export default function ExcelImporter() {
           .
         </p>
       </DocumentContainer>
-      <div className="mt-4 flex h-[800px] rounded-lg border border-gray-200 bg-white px-2 py-6 sm:px-8">
+      <div className="mt-4 flex h-[800px] rounded-lg border border-gray-200 bg-background px-2 py-6 sm:px-8">
         <Importer
           allowManualDataEntry
           maxFileSizeInBytes={10 * 1024 * 1024} // 10MB

@@ -25,9 +25,9 @@ const baseClasses = cva(
       variant: {
         primary: 'shadow-xs bg-hello-csv-primary text-white',
         secondary:
-          'bg-white text-hello-csv-primary ring-1 shadow-xs ring-bg-hello-csv-primary ring-inset',
+          'bg-background text-hello-csv-primary ring-1 shadow-xs ring-bg-hello-csv-primary ring-inset',
         tertiary:
-          'bg-white text-gray-900 ring-1 shadow-xs ring-hello-csv-tertiary ring-inset',
+          'bg-background text-gray-900 ring-1 shadow-xs ring-hello-csv-tertiary ring-inset',
         success: 'shadow-xs bg-hello-csv-success text-white',
         danger: 'shadow-xs bg-hello-csv-danger text-white',
       },
